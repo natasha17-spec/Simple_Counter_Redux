@@ -1,0 +1,101 @@
+.counters {
+    width: 350px;
+    height: 200px;
+    border: #0bb7ff 4px solid;
+    border-style: outset;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.counter_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 110px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 15px;
+    margin: 12px 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #010707;
+    background: #c8c8c8;
+    box-shadow: 0 8px 15px rgba(107, 107, 108, 0.1);
+    transition: .3s;
+}
+
+.btn_border {
+    border: #0bb7ff 2px solid;
+    border-style: outset;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.decore_btn {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #F137A6 inset, 0 0 0 0 #F137A6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+
+.decore_btn:hover {
+    box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+    color: #F137A6;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.values {
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.error {
+    color: red;
+}
+
+.disabled {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #F137A6 inset, 0 0 0 0 #F137A6;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    transition: .15s ease-in-out;
+}
